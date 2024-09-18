@@ -12,6 +12,21 @@ Welcome to the README file for Excalibot, your state-of-the-art robot designed f
 - **User-Friendly Interface:** Equipped with a touch screen and intuitive software for easy operation.
 - **Durability:** Built with high-quality materials for long-lasting performance and reliability.
 
+## Project Proposal
+
+Project Proposal Industrial Robotics
+
+We wish to incorporate 2 robots to work together collaboratively on a product inspection and manipulation task in a sword forging application. The first robot, ABB IRB 1200, will pick up a cold sword and present it to an external coil induction heating machine using a gripper. The second robot, UR5, will have 2 cameras on its tool head. The first is a thermal camera that will check when the sword has been heated to the correct temperature. The second camera is a 3D scanner that will check for defects after the first robot has quenched the sword. The IRB 1200 will then place the cooled sword on a table. Safety features such as fencing, light curtains and e-stops will be considered in the system design.
+
+
+We are using the IRB 1300 by ABB. We chose this robot as it has a 10kg payload and around a 1m reach. The payload capacity will allow enough leeway for a gripper and the weight of the sword to be moved around easily, we have to consider that the sword's weight will be offset from the end effector. The 1m reach will be enough to easily manipulate and move the sword around when going in and out the forge.
+
+ We will choose the UR5 as it has a reach of 850mm which will be enough to inspect up and down the sword. The UR5 also has a payload 5kg which should be enough to attach to camera sensors on a revolving tool for inspection. 
+ 
+![image](https://github.com/user-attachments/assets/64ffc542-72d8-42b7-97cf-24cad5d6ed0f)
+
+
+
 ## Installation
 
 Follow these steps to install Excalibot:
