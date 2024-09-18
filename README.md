@@ -2,6 +2,8 @@
 
 Welcome to the README file for Excalibot, your state-of-the-art robot designed for crafting high-quality swords with precision and ease. This document provides an overview of Excalibot's features, installation instructions, and usage guidelines.
 
+![CoverImage](.assets/image.jpg)
+
 ## Features
 
 - **Precision Forging:** Excalibot uses advanced sensors and algorithms to ensure each sword is crafted to perfection.
