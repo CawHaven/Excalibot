@@ -2,7 +2,7 @@
 
 Welcome to the README file for Excalibot, your state-of-the-art robot designed for crafting high-quality swords with precision and ease. This document provides an overview of Excalibot's features, installation instructions, and usage guidelines.
 
-![CoverImage](https://studentutsedu-my.sharepoint.com/:i:/g/personal/michael_j_lee-5_student_uts_edu_au/EUFUOrZONMJJg6gqfGmTmrwB5WS_DKQ4MvmidPFDhP6rwg?e=5Y5S46)
+![CoverImage](./Robot%20Assets/In%20Motion.png)
 
 ## Features
 
