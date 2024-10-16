@@ -6,7 +6,6 @@ classdef Environment
     methods
         function self = Environment()
             %% 1. Initialize Environment
-            %clc; clear; close all;
             figure;
             hold on; 
             axis equal;
@@ -17,7 +16,7 @@ classdef Environment
             ylim([-2.5, 2.5]); % Set Y-axis limits meter
             zlim([0, 2.5]);  % Set Z-axis limits meters
             axis manual;
-
+            
             % Add lighting to the scene
             camlight('headlight'); % Add a headlight for better visualization
             lighting gouraud;
