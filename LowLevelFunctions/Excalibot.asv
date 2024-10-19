@@ -37,7 +37,16 @@ classdef Excalibot < RobotBaseClass
             
             self.model = SerialLink(link,'name',self.name);
         end
+
+        %% Move to
+        function MoveTo(self, position)
+            if length(position) ~= 6
+                error('Input must be a 6-element array [x, y, z, rx, ry, rz]');
+            end
+            
+            inversekine = self.model.ikcon(trans(position(1),position(2),position(3))*rpy2tr(position(4),position(5),position(6)));
+
+            self.model.animate(self.model.fkine(inversekine(1,:)));
+        end
     end
 end
-
-function gripp
