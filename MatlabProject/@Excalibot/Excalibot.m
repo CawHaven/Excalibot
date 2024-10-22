@@ -37,5 +37,23 @@ classdef Excalibot < RobotBaseClass
             
             self.model = SerialLink(link,'name',self.name);
         end
+
+        %% Move to
+        function MoveTo(self, position)
+            if length(position) ~= 6
+                error('Input must be a 6-element array [x, y, z, rx, ry, rz]');
+            end
+    
+            inversekine = self.model.ikcon(transl(position(1), position(2), position(3)) * rpy2tr(position(4), position(5), position(6)));
+
+            currentPos = self.model.getpos();
+    
+            trajectoryclac = jtraj(currentPos, inversekine, 50); 
+
+            for i = 1:size(trajectoryclac, 1)
+                self.model.animate(trajectoryclac(i, :));
+                drawnow();
+            end
+        end
     end
 end

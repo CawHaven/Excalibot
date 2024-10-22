@@ -36,9 +36,9 @@ classdef Environment
             fencePos = [0,0,0];
             PlaceObject(fencefile, fencePos);
             
-            ABBPedestalfile = 'RobotPedestal.ply';
-            ABBPedestalPos = [0,0,0];
-            PlaceObject(ABBPedestalfile, ABBPedestalPos);
+            % ABBPedestalfile = 'RobotPedestal.ply';
+            % ABBPedestalPos = [0,0,0];
+            % PlaceObject(ABBPedestalfile, ABBPedestalPos);
             
             CobotPedestalfile = 'URRobotPedestal.ply';
             CobotPedestalPos = [0,0,0];
