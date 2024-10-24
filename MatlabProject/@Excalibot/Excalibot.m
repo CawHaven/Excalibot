@@ -29,10 +29,10 @@ classdef Excalibot < RobotBaseClass
             
             % Incorporate joint limits
             link(1).qlim = [-360 360]*pi/180;
-            link(2).qlim = [-360 360]*pi/180;
-            link(3).qlim = [-360 360]*pi/180;
-            link(4).qlim = [-360 360]*pi/180;
-            link(5).qlim = [-360 360]*pi/180;
+            link(2).qlim = [-53 53]*pi/180;
+            link(3).qlim = [-167 167]*pi/180;
+            link(4).qlim = [-180 180]*pi/180;
+            link(5).qlim = [-98 98]*pi/180;
             link(6).qlim = [-360 360]*pi/180;
             
             self.model = SerialLink(link,'name',self.name);
