@@ -1,11 +1,12 @@
 classdef Environment
 
     properties
+        envFigure
     end
 
     methods
         function self = Environment()
-            figure;
+            self.envFigure = figure;
             hold on;
             axis equal;
             grid on;
