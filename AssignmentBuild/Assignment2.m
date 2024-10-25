@@ -59,6 +59,10 @@ PlaceObject(furnacefile, furnacePos);
 base = transl(-1.3134, -0.61995, 0.58111)
 URrobot = UR5(base);
 URrobot.model.fkine(URrobot.model.getpos);
+initialPose = [pi/2, -pi/2, 0, 0, 0, 0];
+URrobot.model.animate(initialPose);
+drawnow;
+
 
 baseTr = transl(-0.06748, 0.3819, 0) * trotz(pi);
 robot = Excalibot(baseTr); % Initialize the robot
@@ -77,8 +81,12 @@ disp('Press Enter to move to the inspection station...');
 pause;  % Wait for user input
 MoveToInspection(robot, swordPatch, swordVertices);  % Call the function to move to the inspection station with COBOT
 
-disp('Task complete!');
+disp('Press Enter to start scan..');
+MoveCOBOTtoInspection(URrobot);
 
+pause
+disp('Press Enter to move to dropoff final position..');
+MoveToDropOff(robot, swordPatch, swordVertices);
 
 
 %%
@@ -94,23 +102,23 @@ function MoveRobotToSword(robot, swordPatch, swordVertices)
     % Move to the first point (above the sword)
     disp('Moving to the first point (above the sword)...');
     robot.MoveTo(first_point, trackSword, swordPatch, swordVertices);
-    pause(0.5);  % Wait for half a second
+
 
     % Move down to the second point (on the sword)
     disp('Moving down to the second point (on the sword)...');
     robot.MoveTo(second_point, trackSword, swordPatch, swordVertices);
-    pause(1);  % Wait for 1 second to simulate gripping the sword
+    pause(0.5);  % Wait for 1 second to simulate gripping the sword
 
     % Enable sword tracking and move back up
     disp('Gripping the sword and moving back up...');
     robot.EnableGripping();  % Enable sword tracking (gripping)
     robot.MoveTo(third_point, true, swordPatch, swordVertices);  % Start tracking the sword
-    pause(0.5);  % Wait for half a second
+
 
     % Move to the third point
     disp('Moving to the third point...');
     robot.MoveTo(fourth_point, true, swordPatch, swordVertices);  % Continue tracking
-    pause(0.5);  % Wait for half a second
+
 
     % Move to the final point
     disp('Moving to the final point...');
@@ -118,7 +126,6 @@ function MoveRobotToSword(robot, swordPatch, swordVertices)
     disp('Sword Heating Up');
 end
 
-%% Water function
 function MoveToWater(robot, swordPatch, swordVertices)
     % Initialize trackSword variable (always true for tracking)
     trackSword = true;  % Enable sword tracking for all points
@@ -146,6 +153,107 @@ function MoveToWater(robot, swordPatch, swordVertices)
     %    % Move to the third point (final position in the water bucket)
     disp('Moving to the third point (in the water bucket)...');
     robot.MoveTo(fourth_point, trackSword, swordPatch, swordVertices); % Wait for half a second
+
+end
+
+function MoveToInspection(robot, swordPatch, swordVertices)
+    % Initialize trackSword variable (always true for tracking)
+    trackSword = true;  % Enable sword tracking for all points
+
+    % Define waypoints for the robot
+    first_point = [0, -0.8, 1.5, 0, 0, 0];
+    second_point =  [-0.75, -0.459, 0.831, 0, 0, 0];
+
+  
+    % Move to the first point (above the water bucket)
+    disp('Moving to the first point (above the water bucket)...');
+    robot.MoveTo(first_point, trackSword, swordPatch, swordVertices);
+    % Wait for half a second
+
+    % Move down to the second point (near the water bucket)
+    disp('Moving down to the second point (near the water bucket)...');
+    robot.MoveTo(second_point, trackSword, swordPatch, swordVertices);
+
+end
+
+function MoveCOBOTtoInspection(URrobot)
+    % Define the waypoints for the robot in 3D space
+    second_point = [-0.75, -0.6, 0.941];  % First point in space (intermediate)
+    third_point = [-0.75, -1.2, 0.941];   % Second point in space (final)
+    
+    % Define the downward orientation in roll, pitch, yaw (pointing down)
+    desiredOrientation = rpy2tr(0, pi, 0);  % Roll=0, Pitch=-pi/2, Yaw=0 (points end effector downwards)
+    
+    % Create transformation matrices for the first and second points with downward orientation
+    firstTransform = transl(second_point) * desiredOrientation;  % First point with orientation
+    secondTransform = transl(third_point) * desiredOrientation;  % Second point with orientation
+    
+    % Save the current joint configuration of the robot (starting position)
+    originalConfig = URrobot.model.getpos();  
+    
+    % Compute the joint configuration for the first and second points using inverse kinematics
+    firstConfig = URrobot.model.ikcon(firstTransform, originalConfig);  % Joint angles for first point
+    secondConfig = URrobot.model.ikcon(secondTransform, firstConfig);   % Joint angles for second point
+    
+    % First: Move to the first point (fast movement)
+    numStepsToFirstPoint = 50;  % Fewer steps for quicker movement to the first point
+    qMatrixToFirstPoint = jtraj(originalConfig, firstConfig, numStepsToFirstPoint);
+    
+    % Animate the robot from its starting position to the first point
+    disp('Moving to the first point with downward orientation...');
+    for j = 1:size(qMatrixToFirstPoint, 1)
+        URrobot.model.animate(qMatrixToFirstPoint(j, :));
+        drawnow;
+        pause(0.01);  % Adjust pause to control speed (faster)
+    end
+    
+    % Second: Slowly move to the second point (slow movement)
+    numStepsToSecondPoint = 150;  % More steps for slower movement to the second point
+    qMatrixToSecondPoint = jtraj(firstConfig, secondConfig, numStepsToSecondPoint);
+    
+    disp('Slowly moving to the second point with downward orientation...');
+    for j = 1:size(qMatrixToSecondPoint, 1)
+        URrobot.model.animate(qMatrixToSecondPoint(j, :));
+        drawnow;
+        pause(0.02);  % Slower movement with more steps
+    end
+    
+    % After reaching the second point, move back to the original position
+    numStepsToReturn = 100;  % Set steps for returning to the original position
+    qMatrixReturn = jtraj(secondConfig, originalConfig, numStepsToReturn);
+    
+    disp('Returning to the original position...');
+    for j = 1:size(qMatrixReturn, 1)
+        URrobot.model.animate(qMatrixReturn(j, :));
+        drawnow;
+        pause(0.02);  % Adjust for smooth return speed
+    end
+    
+    disp('Returned to the original position.');
+end
+
+function MoveToDropOff(robot, swordPatch, swordVertices)
+    % Initialize trackSword variable (always true for tracking)
+    trackSword = true;  % Enable sword tracking for all points
+
+    % Define waypoints for the robot
+    first_point = [-1.1456, 0.98152, 0.9, 0, 0, 0];
+    second_point =  [-1.1456, 0.98152, 0.7, 0, 0, -pi/2];
+    third_point =  [-1.1456, 0.98152, 0.7, 0, 0, 0];
+    Final_point =  [0, -0.8, 1.5, 0, 0, 0];
+
+  
+    % Move to the first point 
+    disp('Moving to the dropoff...');
+    robot.MoveTo(first_point, trackSword, swordPatch, swordVertices);
+    % Wait for half a second
+
+    % Move down to the second point (near
+    disp('dropping off');
+    robot.MoveTo(second_point, trackSword, swordPatch, swordVertices);
+    trackSword = false;
+    robot.MoveTo(third_point, trackSword, swordPatch, swordVertices);
+    robot.MoveTo(Final_point, trackSword, swordPatch, swordVertices);
 
 end
 
