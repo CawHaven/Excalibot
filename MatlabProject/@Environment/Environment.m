@@ -2,6 +2,7 @@ classdef Environment
 
     properties
         envFigure
+        sword
     end
 
     methods
@@ -61,6 +62,9 @@ classdef Environment
             furnacefile = 'Furnace.ply';
             furnacePos = [0,0,0];
             PlaceObject(furnacefile, furnacePos);
+
+            self.sword.patch = swordPatch;
+            self.sword.vertices = swordVertices;
             %%
         end
     end

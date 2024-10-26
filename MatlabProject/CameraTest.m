@@ -9,12 +9,13 @@ cam = cam.setPosition(camPos);
 cam = cam.setOrientation(rotx(deg2rad(-90))); % Example using rotations
 % Set a new position and orientation
 % Check if displayFigure exists and is valid; otherwise, create it once
+tempFigureHandle = figure('Visible', 'off'); % Invisible figure
 FigureHandle = figure;
 AxesHandle = axes('Parent', FigureHandle);
 title(AxesHandle, 'Captured Camera View');
 
-for i=0:100
-    camPos = camPos - [0,0.005,0];
+for i=0:10
+    camPos = camPos - [0,0.05,0];
     cam = cam.setPosition(camPos);
-    cam.captureAndDisplay(AxesHandle);
+    cam.captureAndDisplay(AxesHandle,tempFigureHandle);
 end
