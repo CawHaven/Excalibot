@@ -45,21 +45,21 @@ end
 %% Create the robot model
         function CreateModel(self)   
             % Create Bot
-            link(1) = Link('d',0.4,'a',0,'alpha',-pi/2,'qlim',deg2rad([-360 360]), 'offset',0);
-            link(2) = Link('d',0,'a',1.05,'alpha',0,'qlim',deg2rad([-360 360]), 'offset',-pi/2);
-            link(3) = Link('d',0.075,'a',0,'alpha',pi/2,'qlim',deg2rad([-360 360]), 'offset',pi/2);
-            link(4) = Link('d',1,'a',0,'alpha',pi/2,'qlim',deg2rad([-360 360]), 'offset',0);
-            link(5) = Link('d',0,'a',0,'alpha',pi/2,'qlim',deg2rad([-360 360]),'offset', 0);
-            link(6) = Link('d',-0.18,'a',0,'alpha',0,'qlim',deg2rad([-360,360]), 'offset',0);
-            
+            link(1) = Link('d',0.4,'a',0,'alpha',-pi/2,'offset',0);
+            link(2) = Link('d',0,'a',1.05,'alpha',0,'offset',-pi/2);
+            link(3) = Link('d',0.075,'a',0,'alpha',pi/2,'offset',pi/2);
+            link(4) = Link('d',1,'a',0,'alpha',pi/2,'offset',0);
+            link(5) = Link('d',0,'a',0,'alpha',pi/2,'offset', 0);
+            link(6) = Link('d',-0.18,'a',0,'alpha',0, 'offset',0);
+
             % Incorporate joint limits
-   link(1).qlim = [-180 180]*pi/180;
+            link(1).qlim = [-360 360]*pi/180;
             link(2).qlim = [-53 53]*pi/180;
             link(3).qlim = [-167 167]*pi/180;
             link(4).qlim = [-180 180]*pi/180;
-            link(5).qlim = [-180 180]*pi/180;
-            link(6).qlim = [-360 360]*pi/180;
-            
+            link(5).qlim = [-98 98]*pi/180;
+            link(6).qlim = [-260 100]*pi/180;
+
             self.model = SerialLink(link,'name',self.name);
         end
 
