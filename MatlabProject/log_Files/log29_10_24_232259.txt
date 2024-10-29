@@ -1,0 +1,10 @@
+[29/10/24 23:22:59] Program started
+[29/10/24 23:23:00] Environment Initialised
+[29/10/24 23:23:02] Excalibot Initialised
+[29/10/24 23:23:03] UR5 Initialised
+[29/10/24 23:23:04] Excalibot Starting Position Set
+[29/10/24 23:23:04] UR5 Starting Position Set
+[29/10/24 23:23:04] GUI settings initialised
+[29/10/24 23:23:04] Camera Initialised
+[29/10/24 23:23:09] Desired Position Based On Slider: [0.778900184072593 0.271444958838916 1.34242844071748 1.88255742982289 3.37303562940936e-05 -2.26545518167491e-05]
+[29/10/24 23:23:09] Movement Could not proceed: [0.778900184072593 0.271444958838916 1.34242844071748] Ignition value: Off Estop: false

@@ -1,0 +1,21 @@
+[30/10/24 00:12:28] Session started
+[30/10/24 00:12:29] Environment Initialised
+[30/10/24 00:12:30] Excalibot Initialised
+[30/10/24 00:12:31] UR5 Initialised
+[30/10/24 00:12:32] Excalibot Starting Position Set
+[30/10/24 00:12:32] UR5 Starting Position Set
+[30/10/24 00:12:33] GUI settings initialised
+[30/10/24 00:12:33] Camera Initialised
+[30/10/24 00:12:33] Selected Robot QuenchBot
+[30/10/24 00:12:33] Program Selected: Main
+[30/10/24 00:12:39] IgnitionQBotSwitchValueChanged: On
+[30/10/24 00:12:41] IgnitionEbotSwitchValueChanged: On
+[30/10/24 00:12:55] IgnitionEbotSwitchValueChanged: Off
+[30/10/24 00:12:55] IgnitionEbotSwitchValueChanged: On
+[30/10/24 00:12:56] IgnitionEbotSwitchValueChanged: Off
+[30/10/24 00:12:57] IgnitionQBotSwitchValueChanged: Off
+[30/10/24 00:12:58] IgnitionQBotSwitchValueChanged: On
+[30/10/24 00:12:59] IgnitionEbotSwitchValueChanged: On
+[30/10/24 00:13:01] IgnitionEbotSwitchValueChanged: Off
+[30/10/24 00:13:02] IgnitionQBotSwitchValueChanged: Off
+[30/10/24 00:13:03] Main Program started

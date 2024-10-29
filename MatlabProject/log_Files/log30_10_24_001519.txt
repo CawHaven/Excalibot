@@ -1,0 +1,333 @@
+[30/10/24 00:15:19] Session started
+[30/10/24 00:15:20] Environment Initialised
+[30/10/24 00:15:21] Excalibot Initialised
+[30/10/24 00:15:22] UR5 Initialised
+[30/10/24 00:15:23] Excalibot Starting Position Set
+[30/10/24 00:15:23] UR5 Starting Position Set
+[30/10/24 00:15:23] GUI settings initialised
+[30/10/24 00:15:23] Camera Initialised
+[30/10/24 00:15:23] Selected Robot QuenchBot
+[30/10/24 00:15:23] Program Selected: Main
+[30/10/24 00:15:33] Desired Position Based On Slider: [-0.559467183323172 0.271444958838916 1.34242844071748 0.000208695834019953 3.37303562940936e-05 -2.26545518167491e-05]
+[30/10/24 00:15:33] Movement Could not proceed: [-0.559467183323172 0.271444958838916 1.34242844071748] Ignition value: Off Estop: false
+[30/10/24 00:15:35] Desired Position Based On Slider: [-0.82111440697838 0.271444958838916 1.34242844071748 0.000208695834019953 3.37303562940936e-05 -2.26545518167491e-05]
+[30/10/24 00:15:35] Movement Could not proceed: [-0.82111440697838 0.271444958838916 1.34242844071748] Ignition value: Off Estop: false
+[30/10/24 00:15:37] Desired Position Based On Slider: [0.778900184072593 0.793795432162454 1.34242844071748 0.000208695834019953 3.37303562940936e-05 -2.26545518167491e-05]
+[30/10/24 00:15:37] Movement Could not proceed: [0.778900184072593 0.793795432162454 1.34242844071748] Ignition value: Off Estop: false
+[30/10/24 00:15:38] Desired Position Based On Slider: [0.778900184072593 0.271444958838916 2.21125185245979 0.000208695834019953 3.37303562940936e-05 -2.26545518167491e-05]
+[30/10/24 00:15:38] Movement Could not proceed: [0.778900184072593 0.271444958838916 2.21125185245979] Ignition value: Off Estop: false
+[30/10/24 00:15:39] Desired Position Based On Slider: [0.778900184072593 0.271444958838916 1.34242844071748 2.76014616950482 3.37303562940936e-05 -2.26545518167491e-05]
+[30/10/24 00:15:39] Movement Could not proceed: [0.778900184072593 0.271444958838916 1.34242844071748] Ignition value: Off Estop: false
+[30/10/24 00:15:40] Desired Position Based On Slider: [0.778900184072593 0.271444958838916 1.34242844071748 0.000208695834019953 1.98996019207947 -2.26545518167491e-05]
+[30/10/24 00:15:40] Movement Could not proceed: [0.778900184072593 0.271444958838916 1.34242844071748] Ignition value: Off Estop: false
+[30/10/24 00:15:41] Desired Position Based On Slider: [0.778900184072593 0.271444958838916 1.34242844071748 0.000208695834019953 3.37303562940936e-05 -2.79108620877011]
+[30/10/24 00:15:41] Movement Could not proceed: [0.778900184072593 0.271444958838916 1.34242844071748] Ignition value: Off Estop: false
+[30/10/24 00:15:42] Program Selected: Pickup
+[30/10/24 00:15:42] Program Selected: Quench
+[30/10/24 00:15:43] Program Selected: Evaluate
+[30/10/24 00:15:44] Program Selected: Dispose
+[30/10/24 00:15:44] Program Selected: Evaluate
+[30/10/24 00:15:45] Program Selected: Quench
+[30/10/24 00:15:46] Program Selected: Pickup
+[30/10/24 00:15:46] Program Selected: Main
+[30/10/24 00:15:47] Selected Robot EvaluateBot
+[30/10/24 00:15:49] Desired Position Based On Slider: [-1.7000270784894 0.0273528935890821 1.40000378152484 -9.92840061110555e-05 -6.56762273282823e-05 -3.42830238028433e-05]
+[30/10/24 00:15:49] Movement Could not proceed: [-1.7000270784894 0.0273528935890821 1.40000378152484] Ignition value: Off Estop: false
+[30/10/24 00:15:50] Desired Position Based On Slider: [-1.04423145429818 -0.499903521035765 1.40000378152484 -9.92840061110555e-05 -6.56762273282823e-05 -3.42830238028433e-05]
+[30/10/24 00:15:50] Movement Could not proceed: [-1.04423145429818 -0.499903521035765 1.40000378152484] Ignition value: Off Estop: false
+[30/10/24 00:15:52] Desired Position Based On Slider: [-1.7000270784894 -0.499903521035765 0.497498875627257 -9.92840061110555e-05 -6.56762273282823e-05 -3.42830238028433e-05]
+[30/10/24 00:15:52] Movement Could not proceed: [-1.7000270784894 -0.499903521035765 0.497498875627257] Ignition value: Off Estop: false
+[30/10/24 00:15:53] Desired Position Based On Slider: [-1.7000270784894 -0.499903521035765 1.40000378152484 2.21162347338725 -6.56762273282823e-05 -3.42830238028433e-05]
+[30/10/24 00:15:53] Movement Could not proceed: [-1.7000270784894 -0.499903521035765 1.40000378152484] Ignition value: Off Estop: false
+[30/10/24 00:15:54] Desired Position Based On Slider: [-1.7000270784894 -0.499903521035765 1.40000378152484 -9.92840061110555e-05 -2.01611189193466 -3.42830238028433e-05]
+[30/10/24 00:15:54] Movement Could not proceed: [-1.7000270784894 -0.499903521035765 1.40000378152484] Ignition value: Off Estop: false
+[30/10/24 00:15:55] Desired Position Based On Slider: [-1.7000270784894 -0.499903521035765 1.40000378152484 -9.92840061110555e-05 -6.56762273282823e-05 2.37221701052616]
+[30/10/24 00:15:55] Movement Could not proceed: [-1.7000270784894 -0.499903521035765 1.40000378152484] Ignition value: Off Estop: false
+[30/10/24 00:15:57] Program Selected: Pickup
+[30/10/24 00:15:58] Desired Position Based On Slider: [-1.7000270784894 -0.499903521035765 1.40000378152484 1.70494349703799 -6.56762273282823e-05 -3.42830238028433e-05]
+[30/10/24 00:15:58] Movement Could not proceed: [-1.7000270784894 -0.499903521035765 1.40000378152484] Ignition value: Off Estop: false
+[30/10/24 00:16:00] IgnitionQBotSwitchValueChanged: On
+[30/10/24 00:16:01] IgnitionEbotSwitchValueChanged: On
+[30/10/24 00:16:02] IgnitionEbotSwitchValueChanged: Off
+[30/10/24 00:16:03] IgnitionQBotSwitchValueChanged: Off
+[30/10/24 00:16:04] EmergencyButtonValueChanged: true
+[30/10/24 00:16:05] Program Could not Start: Pickup Estop: true
+[30/10/24 00:16:06] Sword Position Reset
+[30/10/24 00:16:07] Program Could not Start: Pickup Estop: true
+[30/10/24 00:16:08] Program Selected: Evaluate
+[30/10/24 00:16:10] Desired Position Based On Slider: [-1.7000270784894 -0.499903521035765 1.40000378152484 1.71113150489105 -6.56762273282823e-05 -3.42830238028433e-05]
+[30/10/24 00:16:10] Movement Could not proceed: [-1.7000270784894 -0.499903521035765 1.40000378152484] Ignition value: Off Estop: true
+[30/10/24 00:16:12] IgnitionQBotSwitchValueChanged: On
+[30/10/24 00:16:13] Desired Position Based On Slider: [-1.7000270784894 -0.499903521035765 1.40000378152484 -9.92840061110555e-05 1.6551447671729 -3.42830238028433e-05]
+[30/10/24 00:16:13] Movement Could not proceed: [-1.7000270784894 -0.499903521035765 1.40000378152484] Ignition value: Off Estop: true
+[30/10/24 00:16:14] IgnitionEbotSwitchValueChanged: On
+[30/10/24 00:16:15] Desired Position Based On Slider: [-1.7000270784894 -0.499903521035765 1.40000378152484 2.05338727257332 -6.56762273282823e-05 -3.42830238028433e-05]
+[30/10/24 00:16:15] Movement Could not proceed: [-1.7000270784894 -0.499903521035765 1.40000378152484] Ignition value: On Estop: true
+[30/10/24 00:16:16] Desired Position Based On Slider: [-1.7000270784894 -0.499903521035765 1.40000378152484 -9.92840061110555e-05 -2.29177290843639 -3.42830238028433e-05]
+[30/10/24 00:16:16] Movement Could not proceed: [-1.7000270784894 -0.499903521035765 1.40000378152484] Ignition value: On Estop: true
+[30/10/24 00:16:17] Desired Position Based On Slider: [-1.7000270784894 -0.499903521035765 0.707367101252169 -9.92840061110555e-05 -6.56762273282823e-05 -3.42830238028433e-05]
+[30/10/24 00:16:17] Movement Could not proceed: [-1.7000270784894 -0.499903521035765 0.707367101252169] Ignition value: On Estop: true
+[30/10/24 00:16:18] Desired Position Based On Slider: [-1.7000270784894 0.0634173967077802 1.40000378152484 -9.92840061110555e-05 -6.56762273282823e-05 -3.42830238028433e-05]
+[30/10/24 00:16:18] Movement Could not proceed: [-1.7000270784894 0.0634173967077802 1.40000378152484] Ignition value: On Estop: true
+[30/10/24 00:16:19] Desired Position Based On Slider: [-0.924665509074708 -0.499903521035765 1.40000378152484 -9.92840061110555e-05 -6.56762273282823e-05 -3.42830238028433e-05]
+[30/10/24 00:16:19] Movement Could not proceed: [-0.924665509074708 -0.499903521035765 1.40000378152484] Ignition value: On Estop: true
+[30/10/24 00:16:20] Selected Robot QuenchBot
+[30/10/24 00:16:22] Desired Position Based On Slider: [-1.25375445528303 0.271444958838916 1.34242844071748 0.000208695834019953 3.37303562940936e-05 -2.26545518167491e-05]
+[30/10/24 00:16:22] Movement Could not proceed: [-1.25375445528303 0.271444958838916 1.34242844071748] Ignition value: On Estop: true
+[30/10/24 00:16:23] Desired Position Based On Slider: [0.778900184072593 -0.595155465928809 1.34242844071748 0.000208695834019953 3.37303562940936e-05 -2.26545518167491e-05]
+[30/10/24 00:16:23] Movement Could not proceed: [0.778900184072593 -0.595155465928809 1.34242844071748] Ignition value: On Estop: true
+[30/10/24 00:16:24] Desired Position Based On Slider: [0.778900184072593 0.271444958838916 1.95629146344323 0.000208695834019953 3.37303562940936e-05 -2.26545518167491e-05]
+[30/10/24 00:16:24] Movement Could not proceed: [0.778900184072593 0.271444958838916 1.95629146344323] Ignition value: On Estop: true
+[30/10/24 00:16:25] Desired Position Based On Slider: [0.778900184072593 0.271444958838916 1.34242844071748 -2.61799387799149 3.37303562940936e-05 -2.26545518167491e-05]
+[30/10/24 00:16:25] Movement Could not proceed: [0.778900184072593 0.271444958838916 1.34242844071748] Ignition value: On Estop: true
+[30/10/24 00:16:26] Desired Position Based On Slider: [0.778900184072593 0.271444958838916 1.34242844071748 0.000208695834019953 2.57148559674668 -2.26545518167491e-05]
+[30/10/24 00:16:26] Movement Could not proceed: [0.778900184072593 0.271444958838916 1.34242844071748] Ignition value: On Estop: true
+[30/10/24 00:16:27] Desired Position Based On Slider: [0.778900184072593 0.271444958838916 1.34242844071748 0.000208695834019953 3.37303562940936e-05 -1.58994968443532]
+[30/10/24 00:16:27] Movement Could not proceed: [0.778900184072593 0.271444958838916 1.34242844071748] Ignition value: On Estop: true
+[30/10/24 00:16:28] Program Could not Start: Evaluate Estop: true
+[30/10/24 00:16:28] Program Selected: Quench
+[30/10/24 00:16:29] Program Could not Start: Quench Estop: true
+[30/10/24 00:16:30] Program Selected: Dispose
+[30/10/24 00:16:31] Program Could not Start: Dispose Estop: true
+[30/10/24 00:16:32] Program Selected: Main
+[30/10/24 00:16:33] Program Could not Start: Main Estop: true
+[30/10/24 00:16:33] Program Selected: Pickup
+[30/10/24 00:16:34] Program Could not Start: Pickup Estop: true
+[30/10/24 00:16:35] Program Selected: Quench
+[30/10/24 00:16:35] Program Could not Start: Quench Estop: true
+[30/10/24 00:16:36] Program Selected: Evaluate
+[30/10/24 00:16:37] Program Could not Start: Evaluate Estop: true
+[30/10/24 00:16:37] Program Selected: Dispose
+[30/10/24 00:16:38] Program Could not Start: Dispose Estop: true
+[30/10/24 00:16:39] IgnitionQBotSwitchValueChanged: Off
+[30/10/24 00:16:40] Program Could not Start: Dispose Estop: true
+[30/10/24 00:16:41] Program Selected: Evaluate
+[30/10/24 00:16:42] Program Could not Start: Evaluate Estop: true
+[30/10/24 00:16:43] Program Selected: Quench
+[30/10/24 00:16:44] Program Could not Start: Quench Estop: true
+[30/10/24 00:16:44] Program Selected: Pickup
+[30/10/24 00:16:45] Program Could not Start: Pickup Estop: true
+[30/10/24 00:16:46] Program Selected: Main
+[30/10/24 00:16:46] Program Could not Start: Main Estop: true
+[30/10/24 00:16:47] IgnitionEbotSwitchValueChanged: Off
+[30/10/24 00:16:48] Program Could not Start: Main Estop: true
+[30/10/24 00:16:49] Program Selected: Pickup
+[30/10/24 00:16:49] Program Could not Start: Pickup Estop: true
+[30/10/24 00:16:50] Program Selected: Quench
+[30/10/24 00:16:50] Program Could not Start: Quench Estop: true
+[30/10/24 00:16:51] Program Selected: Evaluate
+[30/10/24 00:16:52] Program Could not Start: Evaluate Estop: true
+[30/10/24 00:16:52] Program Selected: Dispose
+[30/10/24 00:16:53] Program Could not Start: Dispose Estop: true
+[30/10/24 00:16:53] Program Selected: Main
+[30/10/24 00:16:54] EmergencyButtonValueChanged: false
+[30/10/24 00:16:55] Main Program started
+[30/10/24 00:16:55] Program Could not Proceed: Pickup Ignition value: Off Estop: false
+[30/10/24 00:16:55] Program Could not Proceed: Quench Ignition value: Off Estop: false
+[30/10/24 00:16:55] Program Could not Proceed: Evaluate Ignition value: Off Estop: false
+[30/10/24 00:16:55] Program Could not Proceed: Evaluate Ignition value: Off Estop: false
+[30/10/24 00:16:55] Program Could not Proceed: Dispose Ignition value: Off Estop: false
+[30/10/24 00:16:55] Main Program ended
+[30/10/24 00:16:56] Program Selected: Pickup
+[30/10/24 00:16:57] Pickup Program started
+[30/10/24 00:16:57] Program Could not Proceed: Pickup Ignition value: Off Estop: false
+[30/10/24 00:16:57] Pickup Program ended
+[30/10/24 00:16:58] Program Selected: Quench
+[30/10/24 00:16:59] Quench Program started
+[30/10/24 00:16:59] Program Could not Proceed: Quench Ignition value: Off Estop: false
+[30/10/24 00:16:59] Quench Program ended
+[30/10/24 00:17:00] Program Selected: Evaluate
+[30/10/24 00:17:00] Evaluate Program started
+[30/10/24 00:17:00] Program Could not Proceed: Evaluate Ignition value: Off Estop: false
+[30/10/24 00:17:00] Program Could not Proceed: Evaluate Ignition value: Off Estop: false
+[30/10/24 00:17:00] Evaluate Program ended
+[30/10/24 00:17:01] Program Selected: Dispose
+[30/10/24 00:17:01] Dispose Program started
+[30/10/24 00:17:01] Program Could not Proceed: Dispose Ignition value: Off Estop: false
+[30/10/24 00:17:01] Dispose Program ended
+[30/10/24 00:17:02] Program Selected: Main
+[30/10/24 00:17:03] Program Selected: Pickup
+[30/10/24 00:17:04] IgnitionQBotSwitchValueChanged: On
+[30/10/24 00:17:05] Pickup Program started
+[30/10/24 00:17:05] Selected Robot QuenchBot
+[30/10/24 00:17:05] Moving to the first point (above the sword)...
+[30/10/24 00:17:05] Desired Position: [1.121 0.52165 0.82457]
+[30/10/24 00:17:05] Final Pose: [1.1209943159752 0.521534825380297 0.824514400325459 -8.30323244250271e-05 6.35989237240816e-05 8.68093509060938e-05]
+[30/10/24 00:17:05] Position Error: [-5.68402479772523e-06 -0.000115174619703007 -5.55996745407183e-05]
+[30/10/24 00:17:06] Moving Robot to: [1.1209943159752 0.521534825380297 0.824514400325459 -8.30323244250271e-05 6.35989237240816e-05 8.68093509060938e-05]
+[30/10/24 00:17:08] Program Selected: Quench
+[30/10/24 00:17:08] Program Could not Start: Quench Program Running: true Robot Moving: true
+[30/10/24 00:17:09] Program Selected: Evaluate
+[30/10/24 00:17:10] Program Could not Start: Evaluate Program Running: true Robot Moving: true
+[30/10/24 00:17:10] Moving down to the second point (on the sword)...
+[30/10/24 00:17:10] Desired Position: [1.121 0.52165 0.7]
+[30/10/24 00:17:10] Final Pose: [1.12071879559109 0.521691518981776 0.699790143231691 -0.000154597016152762 -1.56427351189027e-05 -0.000319855121567247]
+[30/10/24 00:17:10] Position Error: [-0.000281204408913993 4.15189817762895e-05 -0.000209856768308758]
+[30/10/24 00:17:10] Moving Robot to: [1.12071879559109 0.521691518981776 0.699790143231691 -0.000154597016152762 -1.56427351189027e-05 -0.000319855121567247]
+[30/10/24 00:17:11] Program Selected: Main
+[30/10/24 00:17:11] Program Could not Start: Main Program Running: true Robot Moving: true
+[30/10/24 00:17:12] Program Selected: Pickup
+[30/10/24 00:17:13] Program Could not Start: Pickup Program Running: true Robot Moving: true
+[30/10/24 00:17:15] Sword Picked Up: [1.121 0.52165 0.7 0 0 0]
+[30/10/24 00:17:15] Gripping the sword and moving back up...
+[30/10/24 00:17:15] Desired Position: [1.121 0.52165 0.82457]
+[30/10/24 00:17:15] Final Pose: [1.1209943159752 0.521534825380297 0.824514400325459 -8.30323244250271e-05 6.35989237240816e-05 8.68093509060938e-05]
+[30/10/24 00:17:15] Position Error: [-5.68402479772523e-06 -0.000115174619703007 -5.55996745407183e-05]
+[30/10/24 00:17:16] Moving Robot to: [1.1209943159752 0.521534825380297 0.824514400325459 -8.30323244250271e-05 6.35989237240816e-05 8.68093509060938e-05]
+[30/10/24 00:17:16] IgnitionQBotSwitchValueChanged: Off
+[30/10/24 00:17:16] Movement Stopped (Estop or Ignition): [1.12072068529557 0.521691807300096 0.699822763391244] Ignition value: Off Estop: false
+[30/10/24 00:17:16] Moving to the third point... (Outside the kiln)
+[30/10/24 00:17:16] Movement Could not proceed: [0.836 -0.16782 0.9] Ignition value: Off Estop: false
+[30/10/24 00:17:16] Moving to the final point...(Into the kiln)
+[30/10/24 00:17:16] Movement Could not proceed: [0.836 -0.65 0.9] Ignition value: Off Estop: false
+[30/10/24 00:17:16] Sword Heating Up
+[30/10/24 00:17:16] Pickup Program ended
+[30/10/24 00:17:18] IgnitionQBotSwitchValueChanged: On
+[30/10/24 00:17:19] Pickup Program started
+[30/10/24 00:17:19] Selected Robot QuenchBot
+[30/10/24 00:17:19] Moving to the first point (above the sword)...
+[30/10/24 00:17:19] Desired Position: [1.121 0.52165 0.82457]
+[30/10/24 00:17:19] Final Pose: [1.1209943159752 0.521534825380297 0.824514400325459 -8.30323244250271e-05 6.35989237240816e-05 8.68093509060938e-05]
+[30/10/24 00:17:19] Position Error: [-5.68402479772523e-06 -0.000115174619703007 -5.55996745407183e-05]
+[30/10/24 00:17:19] Moving Robot to: [1.1209943159752 0.521534825380297 0.824514400325459 -8.30323244250271e-05 6.35989237240816e-05 8.68093509060938e-05]
+[30/10/24 00:17:23] IgnitionEbotSwitchValueChanged: On
+[30/10/24 00:17:25] Moving down to the second point (on the sword)...
+[30/10/24 00:17:25] Desired Position: [1.121 0.52165 0.7]
+[30/10/24 00:17:25] Final Pose: [1.12071879559109 0.521691518981776 0.699790143231691 -0.000154597016152762 -1.56427351189027e-05 -0.000319855121567247]
+[30/10/24 00:17:25] Position Error: [-0.000281204408913993 4.15189817762895e-05 -0.000209856768308758]
+[30/10/24 00:17:26] Moving Robot to: [1.12071879559109 0.521691518981776 0.699790143231691 -0.000154597016152762 -1.56427351189027e-05 -0.000319855121567247]
+[30/10/24 00:17:26] IgnitionQBotSwitchValueChanged: Off
+[30/10/24 00:17:26] Movement Stopped (Estop or Ignition): [1.12099438366182 0.521534839762182 0.824513116908856] Ignition value: Off Estop: false
+[30/10/24 00:17:26] Sword Picked Up: [1.121 0.52165 0.7 0 0 0]
+[30/10/24 00:17:26] Gripping the sword and moving back up...
+[30/10/24 00:17:26] Movement Could not proceed: [1.121 0.52165 0.82457] Ignition value: Off Estop: false
+[30/10/24 00:17:26] Moving to the third point... (Outside the kiln)
+[30/10/24 00:17:26] Movement Could not proceed: [0.836 -0.16782 0.9] Ignition value: Off Estop: false
+[30/10/24 00:17:26] Moving to the final point...(Into the kiln)
+[30/10/24 00:17:26] Movement Could not proceed: [0.836 -0.65 0.9] Ignition value: Off Estop: false
+[30/10/24 00:17:26] Sword Heating Up
+[30/10/24 00:17:26] Pickup Program ended
+[30/10/24 00:17:27] Program Selected: Evaluate
+[30/10/24 00:17:27] Evaluate Program started
+[30/10/24 00:17:27] Program Could not Proceed: Evaluate Ignition value: Off Estop: false
+[30/10/24 00:17:27] Selected Robot EvaluateBot
+[30/10/24 00:17:27] Moving to the first point with downward orientation...
+[30/10/24 00:17:27] Desired Position: [-0.75 -0.62 0.941]
+[30/10/24 00:17:27] Final Pose: [-0.75003499595884 -0.619977442230889 0.941036121708929 -3.14153254885492 -0.000124023700382413 -3.14154740667901]
+[30/10/24 00:17:27] Position Error: [-3.4995958840045e-05 2.25577691109757e-05 3.61217089288601e-05]
+[30/10/24 00:17:28] Moving Robot to: [-0.75003499595884 -0.619977442230889 0.941036121708929 -3.14153254885492 -0.000124023700382413 -3.14154740667901]
+[30/10/24 00:17:30] IgnitionEbotSwitchValueChanged: Off
+[30/10/24 00:17:30] Movement Stopped (Estop or Ignition): [-1.36877209303091 -0.506587877920237 1.47510672855475] Ignition value: Off Estop: false
+[30/10/24 00:17:30] Slowly moving to the second point with downward orientation...
+[30/10/24 00:17:30] Movement Could not proceed: [-0.76 -1.05 0.941] Ignition value: Off Estop: false
+[30/10/24 00:17:30] Returning to the original position...
+[30/10/24 00:17:30] Movement Could not proceed: [-1.7 -0.5 1.4] Ignition value: Off Estop: false
+[30/10/24 00:17:30] Returned to the original position.
+[30/10/24 00:17:30] Evaluate Program ended
+[30/10/24 00:17:31] Evaluate Program started
+[30/10/24 00:17:31] Program Could not Proceed: Evaluate Ignition value: Off Estop: false
+[30/10/24 00:17:31] Program Could not Proceed: Evaluate Ignition value: Off Estop: false
+[30/10/24 00:17:31] Evaluate Program ended
+[30/10/24 00:17:32] IgnitionEbotSwitchValueChanged: On
+[30/10/24 00:17:33] Evaluate Program started
+[30/10/24 00:17:33] Program Could not Proceed: Evaluate Ignition value: Off Estop: false
+[30/10/24 00:17:33] Selected Robot EvaluateBot
+[30/10/24 00:17:33] Moving to the first point with downward orientation...
+[30/10/24 00:17:33] Desired Position: [-0.75 -0.62 0.941]
+[30/10/24 00:17:33] Final Pose: [-0.75003499595884 -0.619977442230889 0.941036121708929 -3.14153254885492 -0.000124023700382413 -3.14154740667901]
+[30/10/24 00:17:33] Position Error: [-3.4995958840045e-05 2.25577691109757e-05 3.61217089288601e-05]
+[30/10/24 00:17:34] Moving Robot to: [-0.75003499595884 -0.619977442230889 0.941036121708929 -3.14153254885492 -0.000124023700382413 -3.14154740667901]
+[30/10/24 00:17:40] Slowly moving to the second point with downward orientation...
+[30/10/24 00:17:40] Desired Position: [-0.76 -1.05 0.941]
+[30/10/24 00:17:40] Final Pose: [-0.760004119258532 -1.04999870183084 0.940999975918518 -3.14158644080113 3.06765048112245e-06 3.14159060542398]
+[30/10/24 00:17:40] Position Error: [-4.11925853227579e-06 1.29816915683811e-06 -2.40814814755907e-08]
+[30/10/24 00:17:40] Moving Robot to: [-0.760004119258532 -1.04999870183084 0.940999975918518 -3.14158644080113 3.06765048112245e-06 3.14159060542398]
+[30/10/24 00:17:46] Returning to the original position...
+[30/10/24 00:17:46] Desired Position: [-1.7 -0.5 1.4]
+[30/10/24 00:17:46] Final Pose: [-1.700018474875 -0.50000481085689 1.40000381800703 -0.000100333839462213 -7.41851254896646e-05 -2.48799846280203e-05]
+[30/10/24 00:17:46] Position Error: [-1.84748750009511e-05 -4.81085688963656e-06 3.81800703030954e-06]
+[30/10/24 00:17:47] Moving Robot to: [-1.700018474875 -0.50000481085689 1.40000381800703 -0.000100333839462213 -7.41851254896646e-05 -2.48799846280203e-05]
+[30/10/24 00:17:53] Returned to the original position.
+[30/10/24 00:17:53] Evaluate Program ended
+[30/10/24 00:17:54] Program Selected: Pickup
+[30/10/24 00:17:55] Pickup Program started
+[30/10/24 00:17:55] Program Could not Proceed: Pickup Ignition value: Off Estop: false
+[30/10/24 00:17:55] Pickup Program ended
+[30/10/24 00:18:01] IgnitionQBotSwitchValueChanged: On
+[30/10/24 00:18:01] Pickup Program started
+[30/10/24 00:18:02] Selected Robot QuenchBot
+[30/10/24 00:18:02] Moving to the first point (above the sword)...
+[30/10/24 00:18:02] Desired Position: [1.121 0.52165 0.82457]
+[30/10/24 00:18:02] Final Pose: [1.1209943159752 0.521534825380297 0.824514400325459 -8.30323244250271e-05 6.35989237240816e-05 8.68093509060938e-05]
+[30/10/24 00:18:02] Position Error: [-5.68402479772523e-06 -0.000115174619703007 -5.55996745407183e-05]
+[30/10/24 00:18:02] Moving Robot to: [1.1209943159752 0.521534825380297 0.824514400325459 -8.30323244250271e-05 6.35989237240816e-05 8.68093509060938e-05]
+[30/10/24 00:18:03] EmergencyButtonValueChanged: true
+[30/10/24 00:18:03] Movement Stopped (Estop or Ignition): [1.1209943159752 0.521534825380297 0.824514400325459] Ignition value: On Estop: true
+[30/10/24 00:18:03] Moving down to the second point (on the sword)...
+[30/10/24 00:18:03] Movement Could not proceed: [1.121 0.52165 0.7] Ignition value: On Estop: true
+[30/10/24 00:18:04] Sword Picked Up: [1.121 0.52165 0.7 0 0 0]
+[30/10/24 00:18:04] Gripping the sword and moving back up...
+[30/10/24 00:18:04] Movement Could not proceed: [1.121 0.52165 0.82457] Ignition value: On Estop: true
+[30/10/24 00:18:04] Moving to the third point... (Outside the kiln)
+[30/10/24 00:18:04] Movement Could not proceed: [0.836 -0.16782 0.9] Ignition value: On Estop: true
+[30/10/24 00:18:04] Moving to the final point...(Into the kiln)
+[30/10/24 00:18:04] Movement Could not proceed: [0.836 -0.65 0.9] Ignition value: On Estop: true
+[30/10/24 00:18:04] Sword Heating Up
+[30/10/24 00:18:04] Pickup Program ended
+[30/10/24 00:18:05] EmergencyButtonValueChanged: false
+[30/10/24 00:18:06] Pickup Program started
+[30/10/24 00:18:06] Selected Robot QuenchBot
+[30/10/24 00:18:06] Moving to the first point (above the sword)...
+[30/10/24 00:18:06] Desired Position: [1.121 0.52165 0.82457]
+[30/10/24 00:18:06] Final Pose: [1.1209943159752 0.521534825380297 0.824514400325459 -8.30323244250271e-05 6.35989237240816e-05 8.68093509060938e-05]
+[30/10/24 00:18:06] Position Error: [-5.68402479772523e-06 -0.000115174619703007 -5.55996745407183e-05]
+[30/10/24 00:18:06] Moving Robot to: [1.1209943159752 0.521534825380297 0.824514400325459 -8.30323244250271e-05 6.35989237240816e-05 8.68093509060938e-05]
+[30/10/24 00:18:08] IgnitionQBotSwitchValueChanged: Off
+[30/10/24 00:18:08] Movement Stopped (Estop or Ignition): [1.1209943159752 0.521534825380297 0.824514400325459] Ignition value: Off Estop: false
+[30/10/24 00:18:08] Moving down to the second point (on the sword)...
+[30/10/24 00:18:08] Movement Could not proceed: [1.121 0.52165 0.7] Ignition value: Off Estop: false
+[30/10/24 00:18:09] Sword Picked Up: [1.121 0.52165 0.7 0 0 0]
+[30/10/24 00:18:09] Gripping the sword and moving back up...
+[30/10/24 00:18:09] Movement Could not proceed: [1.121 0.52165 0.82457] Ignition value: Off Estop: false
+[30/10/24 00:18:09] Moving to the third point... (Outside the kiln)
+[30/10/24 00:18:09] Movement Could not proceed: [0.836 -0.16782 0.9] Ignition value: Off Estop: false
+[30/10/24 00:18:09] Moving to the final point...(Into the kiln)
+[30/10/24 00:18:09] Movement Could not proceed: [0.836 -0.65 0.9] Ignition value: Off Estop: false
+[30/10/24 00:18:09] Sword Heating Up
+[30/10/24 00:18:09] Pickup Program ended
+[30/10/24 00:18:09] Pickup Program started
+[30/10/24 00:18:09] Program Could not Proceed: Pickup Ignition value: Off Estop: false
+[30/10/24 00:18:09] Pickup Program ended
+[30/10/24 00:18:10] EmergencyButtonValueChanged: true
+[30/10/24 00:18:11] IgnitionQBotSwitchValueChanged: On
+[30/10/24 00:18:11] Program Could not Start: Pickup Estop: true
+[30/10/24 00:18:12] EmergencyButtonValueChanged: false
+[30/10/24 00:18:14] Pickup Program started
+[30/10/24 00:18:14] Selected Robot QuenchBot
+[30/10/24 00:18:14] Moving to the first point (above the sword)...
+[30/10/24 00:18:14] Desired Position: [1.121 0.52165 0.82457]
+[30/10/24 00:18:14] Final Pose: [1.1209943159752 0.521534825380297 0.824514400325459 -8.30323244250271e-05 6.35989237240816e-05 8.68093509060938e-05]
+[30/10/24 00:18:14] Position Error: [-5.68402479772523e-06 -0.000115174619703007 -5.55996745407183e-05]
+[30/10/24 00:18:14] Moving Robot to: [1.1209943159752 0.521534825380297 0.824514400325459 -8.30323244250271e-05 6.35989237240816e-05 8.68093509060938e-05]
+[30/10/24 00:18:19] Moving down to the second point (on the sword)...
+[30/10/24 00:18:19] Desired Position: [1.121 0.52165 0.7]
+[30/10/24 00:18:19] Final Pose: [1.12071879559109 0.521691518981776 0.699790143231691 -0.000154597016152762 -1.56427351189027e-05 -0.000319855121567247]
+[30/10/24 00:18:19] Position Error: [-0.000281204408913993 4.15189817762895e-05 -0.000209856768308758]
+[30/10/24 00:18:20] Moving Robot to: [1.12071879559109 0.521691518981776 0.699790143231691 -0.000154597016152762 -1.56427351189027e-05 -0.000319855121567247]
+[30/10/24 00:18:27] Sword Picked Up: [1.121 0.52165 0.7 0 0 0]
+[30/10/24 00:18:27] Gripping the sword and moving back up...
+[30/10/24 00:18:27] Desired Position: [1.121 0.52165 0.82457]
+[30/10/24 00:18:27] Final Pose: [1.1209943159752 0.521534825380297 0.824514400325459 -8.30323244250271e-05 6.35989237240816e-05 8.68093509060938e-05]
+[30/10/24 00:18:27] Position Error: [-5.68402479772523e-06 -0.000115174619703007 -5.55996745407183e-05]
+[30/10/24 00:18:27] Moving Robot to: [1.1209943159752 0.521534825380297 0.824514400325459 -8.30323244250271e-05 6.35989237240816e-05 8.68093509060938e-05]
+[30/10/24 00:18:34] Moving to the third point... (Outside the kiln)
+[30/10/24 00:18:34] Desired Position: [0.836 -0.16782 0.9]
+[30/10/24 00:18:34] Final Pose: [0.835992225679084 -0.167744025295627 0.899957139618643 1.27472204922578e-05 2.18199396048637e-05 -7.58651604091783e-05]
+[30/10/24 00:18:34] Position Error: [-7.77432091547681e-06 7.59747043725112e-05 -4.2860381357257e-05]
+[30/10/24 00:18:35] Moving Robot to: [0.835992225679084 -0.167744025295627 0.899957139618643 1.27472204922578e-05 2.18199396048637e-05 -7.58651604091783e-05]
+[30/10/24 00:18:41] Moving to the final point...(Into the kiln)
+[30/10/24 00:18:41] Desired Position: [0.836 -0.65 0.9]
+[30/10/24 00:18:41] Final Pose: [0.835990056770906 -0.649866229394338 0.900167606627423 -4.70461236199507e-05 4.16639730790232e-05 -3.37144659515607e-05]
+[30/10/24 00:18:41] Position Error: [-9.94322909442236e-06 0.000133770605662109 0.000167606627422656]
+[30/10/24 00:18:42] Moving Robot to: [0.835990056770906 -0.649866229394338 0.900167606627423 -4.70461236199507e-05 4.16639730790232e-05 -3.37144659515607e-05]
+[30/10/24 00:18:44] Session Ended

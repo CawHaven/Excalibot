@@ -1,0 +1,8 @@
+[2024-10-29 23:07:58] Program started
+[2024-10-29 23:07:59] Environment Initialised
+[2024-10-29 23:08:00] Excalibot Initialised
+[2024-10-29 23:08:01] UR5 Initialised
+[2024-10-29 23:08:02] Excalibot Starting Position Set
+[2024-10-29 23:08:02] UR5 Starting Position Set
+[2024-10-29 23:08:02] GUI settings initialised
+[2024-10-29 23:08:02] Camera Initialised
