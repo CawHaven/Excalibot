@@ -2,12 +2,14 @@ classdef Environment
 
     properties
         envFigure
+        envAxes
         sword
     end
 
     methods
         function self = Environment()
             self.envFigure = figure;
+            self.envAxes = axes('Parent',self.envFigure);
             hold on;
             axis equal;
             grid on;

@@ -45,6 +45,7 @@ classdef Camera
             currentDistance = norm(obj.position);
             % Set zoom factor as the ratio of the base distance to the current distance
             zoomFactor = obj.baseDistance / currentDistance;
+            zoomFactor = zoomFactor * 0.5;
         end
 
         % Capture the current view of the environment and update displayFigure
