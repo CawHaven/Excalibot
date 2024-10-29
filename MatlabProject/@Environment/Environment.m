@@ -5,6 +5,7 @@ classdef Environment
         envAxes
         sword
         hierarchicalBoundingBoxes % Hierarchical bounding boxes for each object
+        boundingBoxesHandle
 
     end
 
@@ -12,6 +13,7 @@ classdef Environment
         function self = Environment()
             self.envFigure = figure;
             self.envAxes = axes('Parent',self.envFigure);
+            self.boundingBoxesHandle = [];
             hold on;
             axis equal;
             grid on;
@@ -45,7 +47,7 @@ classdef Environment
             PlaceObject(fencefile,fencePos);
             [fenceFaces, fenceVertices, ~] = plyread(fencefile, 'tri');
             fenceVerticesTransformed = self.transformVertices(fenceVertices, fencePos);
-            self.hierarchicalBoundingBoxes.fence = self.createHierarchicalBoundingBoxes(fenceVerticesTransformed, 600);
+            self.hierarchicalBoundingBoxes.fence = self.createHierarchicalBoundingBoxes(fenceVerticesTransformed, 1000);
 
             %% Load Sword PLY data
             [swordFaces, swordVertices, swordData] = plyread('Sword.ply', 'tri');  % Load the sword mesh
@@ -60,7 +62,7 @@ classdef Environment
             swordPatch = patch('Faces', swordFaces, 'Vertices', swordVerticesTransformed(:, 1:3), ...
                 'FaceColor', [0.8, 0.8, 0.8], 'EdgeColor', 'none');  % Default gray color
 
-            
+
             %%
             % Cobot Pedestal
             CobotPedestalfile = 'URRobotPedestal.ply';
@@ -68,7 +70,7 @@ classdef Environment
             PlaceObject(CobotPedestalfile,CobotPedestalPos);
             [pedestalFaces, pedestalVertices, ~] = plyread(CobotPedestalfile, 'tri');
             pedestalVerticesTransformed = self.transformVertices(pedestalVertices, CobotPedestalPos);
-            self.hierarchicalBoundingBoxes.cobotPedestal = self.createHierarchicalBoundingBoxes(pedestalVerticesTransformed, 300);
+            self.hierarchicalBoundingBoxes.cobotPedestal = self.createHierarchicalBoundingBoxes(pedestalVerticesTransformed, 600);
 
             % Water Bucket
             waterfile = 'WaterBucket.ply';
@@ -76,7 +78,7 @@ classdef Environment
             PlaceObject(waterfile,waterPos);
             [waterFaces, waterVertices, ~] = plyread(waterfile, 'tri');
             waterVerticesTransformed = self.transformVertices(waterVertices, waterPos);
-            self.hierarchicalBoundingBoxes.waterBucket = self.createHierarchicalBoundingBoxes(waterVerticesTransformed, 300);
+            self.hierarchicalBoundingBoxes.waterBucket = self.createHierarchicalBoundingBoxes(waterVerticesTransformed, 600);
 
             % Furnace
             furnacefile = 'Furnace.ply';
@@ -88,6 +90,9 @@ classdef Environment
 
             self.sword.patch = swordPatch;
             self.sword.vertices = swordVertices;
+
+            %self.plotBoundingBoxes();
+            
             %%
         end
 
@@ -195,6 +200,70 @@ classdef Environment
                 (point(2) >= bbox.min(2) && point(2) <= bbox.max(2)) && ...
                 (point(3) >= bbox.min(3) && point(3) <= bbox.max(3));
         end
+
+        function plotBoundingBoxes(self)
+            % Function to plot all bounding boxes with transparency
+            % Input:
+            % - transparencyLevel: a value between 0 and 1 for transparency (0 = fully transparent, 1 = opaque)
+            transparencyLevel = 0.5;
+            
+            % Set up a 3D plot
+           
+
+            % Check for transparency level validity
+            if nargin < 2 || transparencyLevel < 0 || transparencyLevel > 1
+                transparencyLevel = 0.5; % Default transparency level
+            end
+
+            % Get object names in the hierarchical bounding boxes
+            objectNames = fieldnames(self.hierarchicalBoundingBoxes);
+
+            % Iterate through each object
+            for objIdx = 1:numel(objectNames)
+                boundingBoxes = self.hierarchicalBoundingBoxes.(objectNames{objIdx});
+
+                % Iterate through each bounding box
+                for boxIdx = 1:numel(boundingBoxes)
+                    bbox = boundingBoxes{boxIdx};
+
+                    % Define the vertices of the bounding box from min and max coordinates
+                    vertices = [
+                        bbox.min(1), bbox.min(2), bbox.min(3);  % Vertex 1
+                        bbox.max(1), bbox.min(2), bbox.min(3);  % Vertex 2
+                        bbox.max(1), bbox.max(2), bbox.min(3);  % Vertex 3
+                        bbox.min(1), bbox.max(2), bbox.min(3);  % Vertex 4
+                        bbox.min(1), bbox.min(2), bbox.max(3);  % Vertex 5
+                        bbox.max(1), bbox.min(2), bbox.max(3);  % Vertex 6
+                        bbox.max(1), bbox.max(2), bbox.max(3);  % Vertex 7
+                        bbox.min(1), bbox.max(2), bbox.max(3)   % Vertex 8
+                        ];
+
+                    % Define the faces of the bounding box as sets of vertices
+                    faces = [
+                        1, 2, 3, 4;  % Bottom face
+                        5, 6, 7, 8;  % Top face
+                        1, 5, 8, 4;  % Left face
+                        2, 6, 7, 3;  % Right face
+                        1, 2, 6, 5;  % Front face
+                        4, 3, 7, 8   % Back face
+                        ];
+
+                    % Plot the bounding box as a 3D patch with transparency
+                   self.boundingBoxesHandle = [self.boundingBoxesHandle; patch('Vertices', vertices, 'Faces', faces, ...
+                        'FaceColor', 'cyan', 'FaceAlpha', transparencyLevel, ...
+                        'EdgeColor', 'black', 'LineWidth', 0.5,'Parent',self.envAxes)];
+                end
+            end
+        end
+        function removeBoundingBoxes(self)
+            % Function to delete all plotted bounding boxes
+            
+                delete(self.boundingBoxesHandle);
+               drawnow;
+           
+
+        end
+
 
     end
 end

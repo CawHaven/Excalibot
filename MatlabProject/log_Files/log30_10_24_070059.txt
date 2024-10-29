@@ -1,0 +1,13 @@
+[30/10/24 07:00:59] Session started
+[30/10/24 07:00:59] Establishing Serial Connection
+[30/10/24 07:00:59] Failed to Establish Serial Connection:Unable to connect to the serialport device at port '/dev/tty.usbserial-1110'. Verify that a device is connected to the port, the port is not in use, and all serialport input arguments and parameter values are supported by the device.
+See <a href="matlab: helpview('matlab', 'serialport_connectError')">related documentation</a> for troubleshooting steps.
+[30/10/24 07:01:01] Environment Initialised
+[30/10/24 07:01:03] Excalibot Initialised
+[30/10/24 07:01:04] UR5 Initialised
+[30/10/24 07:01:05] Excalibot Starting Position Set
+[30/10/24 07:01:05] UR5 Starting Position Set
+[30/10/24 07:01:05] GUI settings initialised
+[30/10/24 07:01:06] Camera Initialised
+[30/10/24 07:01:06] Selected Robot QuenchBot
+[30/10/24 07:01:06] Program Selected: Main
