@@ -49,15 +49,9 @@ classdef Camera
         end
 
         % Capture the current view of the environment and update displayFigure
-        function captureAndDisplay(obj, displayAxes, tempFigure)
+        function captureAndDisplay(obj, displayAxes, tempAxes,envAxes)
             % Create an invisible figure to capture the environment view
            
-            envAxes = obj.env.envFigure.CurrentAxes; % Original environment axes
-
-            % Copy environment axes to temporary figure and set it as active
-            tempAxes = copyobj(envAxes, tempFigure);
-
-            % Apply camera transformations to the temporary axes
             campos(tempAxes, obj.position);
             camup(tempAxes, obj.orientation(:, 3));
             camtarget(tempAxes, obj.orientation(:, 2)' + obj.position);
@@ -68,7 +62,7 @@ classdef Camera
             
             % Capture the frame from the temporary axes
             frame = getframe(tempAxes); % Capture the frame data
-            delete(tempAxes);
+            
 
             % Display the captured view in displayFigure by overwriting the old image
             imshow(frame.cdata, 'Parent', displayAxes);
