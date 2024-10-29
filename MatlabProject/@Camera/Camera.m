@@ -49,7 +49,7 @@ classdef Camera
         end
 
         % Capture the current view of the environment and update displayFigure
-        function captureAndDisplay(obj, displayAxes, tempAxes,envAxes)
+        function captureAndDisplay(obj, tempAxes,envAxes)
             % Create an invisible figure to capture the environment view
            
             campos(tempAxes, obj.position);
@@ -58,19 +58,7 @@ classdef Camera
             
             % Apply zoom based on the calculated zoom factor
             zoomFactor = obj.calculateZoomFactor();
-            camva(tempAxes, camva(envAxes) * zoomFactor); % Adjust the view angle
-            % 
-            % % Capture the frame from the temporary axes
-            % frame = getframe(tempAxes); % Capture the frame data
-            % 
-            % 
-            % % Efficiently update displayAxes image data instead of re-creating with imshow
-            % hImage = findobj(displayAxes, 'Type', 'Image');
-            % if isempty(hImage)
-            %     imshow(frame.cdata, 'Parent', displayAxes);
-            % else
-            %     set(hImage, 'CData', frame.cdata);
-            % end
+            camva(tempAxes, camva(envAxes) * zoomFactor); % Adjust the view angle     
         end
     end
 end
