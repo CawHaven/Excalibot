@@ -1,0 +1,28 @@
+[30/10/24 05:46:45] Session started
+[30/10/24 05:46:45] Establishing Serial Connection
+[30/10/24 05:46:45] Failed to Establish Serial Connection:Unable to connect to the serialport device at port '/dev/tty.usbserial-1110'. Verify that a device is connected to the port, the port is not in use, and all serialport input arguments and parameter values are supported by the device.
+See <a href="matlab: helpview('matlab', 'serialport_connectError')">related documentation</a> for troubleshooting steps.
+[30/10/24 05:46:47] Environment Initialised
+[30/10/24 05:46:48] Excalibot Initialised
+[30/10/24 05:46:49] UR5 Initialised
+[30/10/24 05:46:50] Excalibot Starting Position Set
+[30/10/24 05:46:50] UR5 Starting Position Set
+[30/10/24 05:46:50] GUI settings initialised
+[30/10/24 05:46:50] Camera Initialised
+[30/10/24 05:46:50] Selected Robot QuenchBot
+[30/10/24 05:46:50] Program Selected: Main
+[30/10/24 05:46:53] IgnitionQBotSwitchValueChanged: On
+[30/10/24 05:46:54] IgnitionEbotSwitchValueChanged: On
+[30/10/24 05:46:55] Main Program started
+[30/10/24 05:46:55] Selected Robot QuenchBot
+[30/10/24 05:46:55] Moving to the first point (above the sword)...
+[30/10/24 05:46:55] Desired Position: [1.121 0.52165 0.82457]
+[30/10/24 05:46:55] Final Pose: [1.1209943159752 0.521534825380297 0.824514400325459 -8.30323244250271e-05 6.35989237240816e-05 8.68093509060938e-05]
+[30/10/24 05:46:55] Position Error: [-5.68402479772523e-06 -0.000115174619703007 -5.55996745407183e-05]
+[30/10/24 05:46:55] Moving Robot to: [1.1209943159752 0.521534825380297 0.824514400325459 -8.30323244250271e-05 6.35989237240816e-05 8.68093509060938e-05]
+[30/10/24 05:47:00] Moving down to the second point (on the sword)...
+[30/10/24 05:47:00] Desired Position: [1.121 0.52165 0.7]
+[30/10/24 05:47:01] Final Pose: [1.12071879559109 0.521691518981776 0.699790143231691 -0.000154597016152762 -1.56427351189027e-05 -0.000319855121567247]
+[30/10/24 05:47:01] Position Error: [-0.000281204408913993 4.15189817762895e-05 -0.000209856768308758]
+[30/10/24 05:47:01] Moving Robot to: [1.12071879559109 0.521691518981776 0.699790143231691 -0.000154597016152762 -1.56427351189027e-05 -0.000319855121567247]
+[30/10/24 05:47:06] Session Ended

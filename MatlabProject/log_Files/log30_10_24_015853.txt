@@ -1,0 +1,23 @@
+[30/10/24 01:58:53] Session started
+[30/10/24 01:58:53] Establishing Serial Connection
+[30/10/24 01:58:53] Failed to Establish Serial Connection:Unable to connect to the serialport device at port '/dev/tty.usbserial-1110'. Verify that a device is connected to the port, the port is not in use, and all serialport input arguments and parameter values are supported by the device.
+See <a href="matlab: helpview('matlab', 'serialport_connectError')">related documentation</a> for troubleshooting steps.
+[30/10/24 01:58:54] Environment Initialised
+[30/10/24 01:58:55] Excalibot Initialised
+[30/10/24 01:58:56] UR5 Initialised
+[30/10/24 01:58:57] Excalibot Starting Position Set
+[30/10/24 01:58:57] UR5 Starting Position Set
+[30/10/24 01:58:57] GUI settings initialised
+[30/10/24 01:58:57] Camera Initialised
+[30/10/24 01:58:57] Selected Robot QuenchBot
+[30/10/24 01:58:57] Program Selected: Main
+[30/10/24 01:59:02] IgnitionQBotSwitchValueChanged: On
+[30/10/24 01:59:03] IgnitionEbotSwitchValueChanged: On
+[30/10/24 01:59:04] EmergencyButtonValueChanged: true
+[30/10/24 01:59:05] EmergencyButtonValueChanged: false
+[30/10/24 01:59:07] Desired Position Based On Slider: [0.778900184072593 0.700989980916031 1.34242844071748 0.000208695834019953 3.37303562940936e-05 -2.26545518167491e-05]
+[30/10/24 01:59:07] Desired Position: [0.778900184072593 0.700989980916031 1.34242844071748]
+[30/10/24 01:59:07] Final Pose: [0.778634816444117 0.700889741469839 1.34201289218677 0.000270053825485638 0.000109745511286913 -0.000274340406622849]
+[30/10/24 01:59:07] Position Error: [-0.000265367628476176 -0.000100239446191974 -0.000415548530714016]
+[30/10/24 01:59:07] Moving Robot to: [0.778634816444117 0.700889741469839 1.34201289218677 0.000270053825485638 0.000109745511286913 -0.000274340406622849]
+[30/10/24 01:59:11] Session Ended

@@ -1,0 +1,21 @@
+[30/10/24 05:42:39] Session started
+[30/10/24 05:42:39] Establishing Serial Connection
+[30/10/24 05:42:39] Failed to Establish Serial Connection:Unable to connect to the serialport device at port '/dev/tty.usbserial-1110'. Verify that a device is connected to the port, the port is not in use, and all serialport input arguments and parameter values are supported by the device.
+See <a href="matlab: helpview('matlab', 'serialport_connectError')">related documentation</a> for troubleshooting steps.
+[30/10/24 05:42:41] Environment Initialised
+[30/10/24 05:42:42] Excalibot Initialised
+[30/10/24 05:42:43] UR5 Initialised
+[30/10/24 05:42:44] Excalibot Starting Position Set
+[30/10/24 05:42:44] UR5 Starting Position Set
+[30/10/24 05:42:44] GUI settings initialised
+[30/10/24 05:42:44] Camera Initialised
+[30/10/24 05:42:44] Selected Robot QuenchBot
+[30/10/24 05:42:44] Program Selected: Main
+[30/10/24 05:42:44] IgnitionQBotSwitchValueChanged: On
+[30/10/24 05:42:46] IgnitionEbotSwitchValueChanged: On
+[30/10/24 05:42:46] Main Program started
+[30/10/24 05:42:46] Selected Robot QuenchBot
+[30/10/24 05:42:46] Moving to the first point (above the sword)...
+[30/10/24 05:42:47] Desired Position: [1.121 0.52165 0.82457]
+[30/10/24 05:42:47] Final Pose: [1.1209943159752 0.521534825380297 0.824514400325459 -8.30323244250271e-05 6.35989237240816e-05 8.68093509060938e-05]
+[30/10/24 05:42:47] Position Error: [-5.68402479772523e-06 -0.000115174619703007 -5.55996745407183e-05]
