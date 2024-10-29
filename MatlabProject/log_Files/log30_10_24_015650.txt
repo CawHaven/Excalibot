@@ -1,0 +1,31 @@
+[30/10/24 01:56:50] Session started
+[30/10/24 01:56:50] Establishing Serial Connection
+[30/10/24 01:56:51] Serial Connection Established
+[30/10/24 01:56:52] Environment Initialised
+[30/10/24 01:56:53] Excalibot Initialised
+[30/10/24 01:56:54] UR5 Initialised
+[30/10/24 01:56:54] Excalibot Starting Position Set
+[30/10/24 01:56:54] UR5 Starting Position Set
+[30/10/24 01:56:54] GUI settings initialised
+[30/10/24 01:56:54] Camera Initialised
+[30/10/24 01:56:54] Selected Robot QuenchBot
+[30/10/24 01:56:54] Program Selected: Main
+[30/10/24 01:56:59] Recieved Serial Communication
+[30/10/24 01:56:59] Hardware Estop Button activated
+[30/10/24 01:56:59] EmergencyButtonValueChanged: true
+[30/10/24 01:56:59] Recieved Serial Communication
+[30/10/24 01:56:59] Hardware Estop Button activated
+[30/10/24 01:56:59] EmergencyButtonValueChanged: false
+[30/10/24 01:56:59] Recieved Serial Communication
+[30/10/24 01:56:59] Hardware Estop Button activated
+[30/10/24 01:56:59] EmergencyButtonValueChanged: true
+[30/10/24 01:57:00] Recieved Serial Communication
+[30/10/24 01:57:00] Hardware Estop Button activated
+[30/10/24 01:57:00] EmergencyButtonValueChanged: false
+[30/10/24 01:57:00] Recieved Serial Communication
+[30/10/24 01:57:00] Hardware Estop Button activated
+[30/10/24 01:57:00] EmergencyButtonValueChanged: true
+[30/10/24 01:57:01] Recieved Serial Communication
+[30/10/24 01:57:01] Hardware Estop Button activated
+[30/10/24 01:57:01] EmergencyButtonValueChanged: false
+[30/10/24 01:57:05] Session Ended

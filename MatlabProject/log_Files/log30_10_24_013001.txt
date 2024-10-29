@@ -1,0 +1,12 @@
+[30/10/24 01:30:01] Session started
+[30/10/24 01:30:01] Establishing Serial Connection
+[30/10/24 01:30:03] Serial Connection Established
+[30/10/24 01:30:04] Environment Initialised
+[30/10/24 01:30:05] Excalibot Initialised
+[30/10/24 01:30:06] UR5 Initialised
+[30/10/24 01:30:07] Excalibot Starting Position Set
+[30/10/24 01:30:07] UR5 Starting Position Set
+[30/10/24 01:30:07] GUI settings initialised
+[30/10/24 01:30:07] Camera Initialised
+[30/10/24 01:30:07] Selected Robot QuenchBot
+[30/10/24 01:30:07] Program Selected: Main

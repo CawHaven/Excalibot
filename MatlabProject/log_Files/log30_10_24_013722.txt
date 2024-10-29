@@ -1,0 +1,61 @@
+[30/10/24 01:37:22] Session started
+[30/10/24 01:37:22] Establishing Serial Connection
+[30/10/24 01:37:23] Serial Connection Established
+[30/10/24 01:37:25] Environment Initialised
+[30/10/24 01:37:26] Excalibot Initialised
+[30/10/24 01:37:27] UR5 Initialised
+[30/10/24 01:37:27] Excalibot Starting Position Set
+[30/10/24 01:37:27] UR5 Starting Position Set
+[30/10/24 01:37:27] GUI settings initialised
+[30/10/24 01:37:28] Camera Initialised
+[30/10/24 01:37:28] Selected Robot QuenchBot
+[30/10/24 01:37:28] Program Selected: Main
+[30/10/24 01:37:30] Recieved Serial Communication
+[30/10/24 01:37:30] EmergencyButtonValueChanged: true
+[30/10/24 01:37:31] Recieved Serial Communication
+[30/10/24 01:37:31] EmergencyButtonValueChanged: false
+[30/10/24 01:37:31] Recieved Serial Communication
+[30/10/24 01:37:31] EmergencyButtonValueChanged: true
+[30/10/24 01:37:32] Recieved Serial Communication
+[30/10/24 01:37:32] EmergencyButtonValueChanged: false
+[30/10/24 01:37:32] Recieved Serial Communication
+[30/10/24 01:37:32] EmergencyButtonValueChanged: true
+[30/10/24 01:37:32] Recieved Serial Communication
+[30/10/24 01:37:33] EmergencyButtonValueChanged: false
+[30/10/24 01:37:33] Recieved Serial Communication
+[30/10/24 01:37:33] EmergencyButtonValueChanged: true
+[30/10/24 01:37:33] Recieved Serial Communication
+[30/10/24 01:37:33] EmergencyButtonValueChanged: false
+[30/10/24 01:37:34] Recieved Serial Communication
+[30/10/24 01:37:34] EmergencyButtonValueChanged: true
+[30/10/24 01:37:34] Recieved Serial Communication
+[30/10/24 01:37:34] EmergencyButtonValueChanged: false
+[30/10/24 01:37:35] Recieved Serial Communication
+[30/10/24 01:37:35] EmergencyButtonValueChanged: true
+[30/10/24 01:37:35] Recieved Serial Communication
+[30/10/24 01:37:35] EmergencyButtonValueChanged: false
+[30/10/24 01:37:35] Recieved Serial Communication
+[30/10/24 01:37:35] EmergencyButtonValueChanged: true
+[30/10/24 01:37:36] Recieved Serial Communication
+[30/10/24 01:37:36] EmergencyButtonValueChanged: false
+[30/10/24 01:37:36] Recieved Serial Communication
+[30/10/24 01:37:36] EmergencyButtonValueChanged: true
+[30/10/24 01:37:37] Recieved Serial Communication
+[30/10/24 01:37:37] EmergencyButtonValueChanged: false
+[30/10/24 01:37:37] Recieved Serial Communication
+[30/10/24 01:37:37] EmergencyButtonValueChanged: true
+[30/10/24 01:37:37] Recieved Serial Communication
+[30/10/24 01:37:37] EmergencyButtonValueChanged: false
+[30/10/24 01:37:38] Recieved Serial Communication
+[30/10/24 01:37:38] EmergencyButtonValueChanged: true
+[30/10/24 01:37:39] Recieved Serial Communication
+[30/10/24 01:37:39] EmergencyButtonValueChanged: false
+[30/10/24 01:37:42] EmergencyButtonValueChanged: true
+[30/10/24 01:37:43] EmergencyButtonValueChanged: false
+[30/10/24 01:37:43] EmergencyButtonValueChanged: true
+[30/10/24 01:37:43] EmergencyButtonValueChanged: false
+[30/10/24 01:37:45] EmergencyButtonValueChanged: true
+[30/10/24 01:37:45] EmergencyButtonValueChanged: false
+[30/10/24 01:37:46] EmergencyButtonValueChanged: true
+[30/10/24 01:37:46] EmergencyButtonValueChanged: false
+[30/10/24 01:37:49] Session Ended

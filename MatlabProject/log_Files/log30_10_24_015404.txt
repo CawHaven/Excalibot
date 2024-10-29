@@ -1,0 +1,141 @@
+[30/10/24 01:54:04] Session started
+[30/10/24 01:54:04] Establishing Serial Connection
+[30/10/24 01:54:06] Serial Connection Established
+[30/10/24 01:54:07] Environment Initialised
+[30/10/24 01:54:08] Excalibot Initialised
+[30/10/24 01:54:09] UR5 Initialised
+[30/10/24 01:54:10] Excalibot Starting Position Set
+[30/10/24 01:54:10] UR5 Starting Position Set
+[30/10/24 01:54:10] GUI settings initialised
+[30/10/24 01:54:10] Camera Initialised
+[30/10/24 01:54:10] Selected Robot QuenchBot
+[30/10/24 01:54:10] Program Selected: Main
+[30/10/24 01:54:20] Recieved Serial Communication
+[30/10/24 01:54:20] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:54:20] EmergencyButtonValueChanged: true
+[30/10/24 01:54:20] Recieved Serial Communication
+[30/10/24 01:54:20] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:54:21] Recieved Serial Communication
+[30/10/24 01:54:21] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:54:21] EmergencyButtonValueChanged: true
+[30/10/24 01:54:22] Recieved Serial Communication
+[30/10/24 01:54:22] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:54:23] Recieved Serial Communication
+[30/10/24 01:54:23] EmergencyButtonValueChanged: false
+[30/10/24 01:54:24] Recieved Serial Communication
+[30/10/24 01:54:24] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:54:24] EmergencyButtonValueChanged: true
+[30/10/24 01:54:24] Recieved Serial Communication
+[30/10/24 01:54:24] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:54:25] Recieved Serial Communication
+[30/10/24 01:54:25] EmergencyButtonValueChanged: false
+[30/10/24 01:54:27] Recieved Serial Communication
+[30/10/24 01:54:27] EmergencyButtonValueChanged: true
+[30/10/24 01:54:27] Recieved Serial Communication
+[30/10/24 01:54:27] EmergencyButtonValueChanged: false
+[30/10/24 01:54:27] Recieved Serial Communication
+[30/10/24 01:54:27] EmergencyButtonValueChanged: true
+[30/10/24 01:54:28] Recieved Serial Communication
+[30/10/24 01:54:28] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:54:28] EmergencyButtonValueChanged: true
+[30/10/24 01:54:28] Recieved Serial Communication
+[30/10/24 01:54:28] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:54:29] Recieved Serial Communication
+[30/10/24 01:54:29] EmergencyButtonValueChanged: false
+[30/10/24 01:54:30] Recieved Serial Communication
+[30/10/24 01:54:30] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:54:30] EmergencyButtonValueChanged: true
+[30/10/24 01:54:31] Recieved Serial Communication
+[30/10/24 01:54:31] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:54:32] Recieved Serial Communication
+[30/10/24 01:54:32] EmergencyButtonValueChanged: false
+[30/10/24 01:54:33] Recieved Serial Communication
+[30/10/24 01:54:33] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:54:33] EmergencyButtonValueChanged: true
+[30/10/24 01:54:33] Recieved Serial Communication
+[30/10/24 01:54:33] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:54:36] Recieved Serial Communication
+[30/10/24 01:54:36] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:54:36] EmergencyButtonValueChanged: true
+[30/10/24 01:54:36] Recieved Serial Communication
+[30/10/24 01:54:36] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:54:36] Recieved Serial Communication
+[30/10/24 01:54:36] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:54:36] EmergencyButtonValueChanged: true
+[30/10/24 01:54:37] Recieved Serial Communication
+[30/10/24 01:54:37] EmergencyButtonValueChanged: false
+[30/10/24 01:54:37] Recieved Serial Communication
+[30/10/24 01:54:37] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:54:38] Recieved Serial Communication
+[30/10/24 01:54:38] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:54:38] EmergencyButtonValueChanged: true
+[30/10/24 01:54:39] Recieved Serial Communication
+[30/10/24 01:54:39] EmergencyButtonValueChanged: false
+[30/10/24 01:54:39] Recieved Serial Communication
+[30/10/24 01:54:39] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:54:39] Recieved Serial Communication
+[30/10/24 01:54:39] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:54:39] EmergencyButtonValueChanged: true
+[30/10/24 01:54:40] Recieved Serial Communication
+[30/10/24 01:54:40] EmergencyButtonValueChanged: false
+[30/10/24 01:54:40] Recieved Serial Communication
+[30/10/24 01:54:40] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:54:41] Recieved Serial Communication
+[30/10/24 01:54:41] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:54:41] EmergencyButtonValueChanged: true
+[30/10/24 01:54:42] Recieved Serial Communication
+[30/10/24 01:54:42] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:54:42] Recieved Serial Communication
+[30/10/24 01:54:42] EmergencyButtonValueChanged: false
+[30/10/24 01:54:43] Recieved Serial Communication
+[30/10/24 01:54:43] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:54:43] EmergencyButtonValueChanged: true
+[30/10/24 01:54:43] Recieved Serial Communication
+[30/10/24 01:54:43] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:54:44] Recieved Serial Communication
+[30/10/24 01:54:44] EmergencyButtonValueChanged: false
+[30/10/24 01:54:44] Recieved Serial Communication
+[30/10/24 01:54:44] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:54:44] EmergencyButtonValueChanged: true
+[30/10/24 01:54:46] Recieved Serial Communication
+[30/10/24 01:54:46] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:54:46] Recieved Serial Communication
+[30/10/24 01:54:46] EmergencyButtonValueChanged: false
+[30/10/24 01:54:48] Recieved Serial Communication
+[30/10/24 01:54:48] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:54:48] EmergencyButtonValueChanged: true
+[30/10/24 01:54:50] Recieved Serial Communication
+[30/10/24 01:54:50] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:54:50] Recieved Serial Communication
+[30/10/24 01:54:50] EmergencyButtonValueChanged: false
+[30/10/24 01:54:51] Recieved Serial Communication
+[30/10/24 01:54:51] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:54:51] EmergencyButtonValueChanged: true
+[30/10/24 01:54:52] Recieved Serial Communication
+[30/10/24 01:54:52] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:54:52] Recieved Serial Communication
+[30/10/24 01:54:52] EmergencyButtonValueChanged: false
+[30/10/24 01:55:00] Recieved Serial Communication
+[30/10/24 01:55:00] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:55:00] EmergencyButtonValueChanged: true
+[30/10/24 01:55:01] Recieved Serial Communication
+[30/10/24 01:55:01] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:55:02] Recieved Serial Communication
+[30/10/24 01:55:02] EmergencyButtonValueChanged: false
+[30/10/24 01:55:03] Recieved Serial Communication
+[30/10/24 01:55:03] EmergencyButtonValueChanged: true
+[30/10/24 01:55:03] Recieved Serial Communication
+[30/10/24 01:55:03] EmergencyButtonValueChanged: false
+[30/10/24 01:55:04] Recieved Serial Communication
+[30/10/24 01:55:04] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:55:04] EmergencyButtonValueChanged: true
+[30/10/24 01:55:05] Recieved Serial Communication
+[30/10/24 01:55:05] EmergencyButtonValueChanged: false
+[30/10/24 01:55:06] Recieved Serial Communication
+[30/10/24 01:55:06] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:55:08] Recieved Serial Communication
+[30/10/24 01:55:08] Light Curtain Triggered, Estop Button activated
+[30/10/24 01:55:08] EmergencyButtonValueChanged: true
+[30/10/24 01:55:08] Recieved Serial Communication
+[30/10/24 01:55:08] Light Curtain Safe, Ready to Deactivate Estop
+[30/10/24 01:55:20] Session Ended
