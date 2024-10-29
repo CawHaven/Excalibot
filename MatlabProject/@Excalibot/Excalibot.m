@@ -23,16 +23,16 @@ function self = Excalibot(baseTr)
         currentposition = currentposition.T;  % Get the 4x4 transformation matrix
     end
     % Debugging: print the transformation matrix to verify it
-    disp('Current End-Effector Position (Transformation Matrix):');
-    disp(currentposition);
+    %disp('Current End-Effector Position (Transformation Matrix):');
+    %disp(currentposition);
     
     % Check if currentposition is a valid 4x4 transformation matrix
     if size(currentposition, 1) == 4 && size(currentposition, 2) == 4
         % Extract the rotation matrix and convert to Euler angles
         rotationMatrix = currentposition(1:3, 1:3);
         % Ensure that rotation matrix elements are properly formatted
-        disp('Rotation Matrix:');
-        disp(rotationMatrix);   
+        %disp('Rotation Matrix:');
+        %disp(rotationMatrix);   
         eulerAngles = rotm2eul(rotationMatrix, "ZYX");
     else
         error('Invalid transformation matrix from fkine.');
