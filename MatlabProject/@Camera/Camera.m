@@ -59,13 +59,18 @@ classdef Camera
             % Apply zoom based on the calculated zoom factor
             zoomFactor = obj.calculateZoomFactor();
             camva(tempAxes, camva(envAxes) * zoomFactor); % Adjust the view angle
-            
-            % Capture the frame from the temporary axes
-            frame = getframe(tempAxes); % Capture the frame data
-            
-
-            % Display the captured view in displayFigure by overwriting the old image
-            imshow(frame.cdata, 'Parent', displayAxes);
+            % 
+            % % Capture the frame from the temporary axes
+            % frame = getframe(tempAxes); % Capture the frame data
+            % 
+            % 
+            % % Efficiently update displayAxes image data instead of re-creating with imshow
+            % hImage = findobj(displayAxes, 'Type', 'Image');
+            % if isempty(hImage)
+            %     imshow(frame.cdata, 'Parent', displayAxes);
+            % else
+            %     set(hImage, 'CData', frame.cdata);
+            % end
         end
     end
 end
