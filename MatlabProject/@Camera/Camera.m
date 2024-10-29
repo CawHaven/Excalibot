@@ -45,7 +45,7 @@ classdef Camera
             currentDistance = norm(obj.position);
             % Set zoom factor as the ratio of the base distance to the current distance
             zoomFactor = obj.baseDistance / currentDistance;
-            zoomFactor = zoomFactor * 0.5;
+            zoomFactor = zoomFactor * 0.55;
         end
 
         % Capture the current view of the environment and update displayFigure
@@ -68,6 +68,7 @@ classdef Camera
             
             % Capture the frame from the temporary axes
             frame = getframe(tempAxes); % Capture the frame data
+            delete(tempAxes);
 
             % Display the captured view in displayFigure by overwriting the old image
             imshow(frame.cdata, 'Parent', displayAxes);
